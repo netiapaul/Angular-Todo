@@ -1,0 +1,13 @@
+
+<form class="form"  (ngSubmit)="onSubmit()">
+    
+    <div class="form-group">
+        <input type='text' class="form-control" name="title" placeholder="Add todo....." [(ngModel)]='title'>
+    <div class="input-group-append">
+        <input type="submit" class="btn btn-primary" value="Add Todo">
+    </div>  
+    </div>
+    
+</form>
+
+{{title}}
